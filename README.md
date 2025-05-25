@@ -76,7 +76,11 @@ streamlit run app.py
 
 - Chat history is preserved during the session using `st.session_state`.  
 - You can modify the system message or model parameters (e.g., temperature) in `app.py` as needed.
-
+- Provide your API key in Streamlit as follows: Go to ⚙️**Settings > Secrects**
+  ```bash
+  GROQ_API_KEY = "YOUR_API_KEY_HERE"
+  HUGGINGFACEHUB_API_TOKEN = "YOUR_API_KEY_HERE"
+  ```
 ---
 
 ## 📝 License
